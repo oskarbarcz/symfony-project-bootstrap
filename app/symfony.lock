@@ -437,12 +437,12 @@
         "version": "v6.0.5"
     },
     "symfony/twig-bundle": {
-        "version": "6.0",
+        "version": "8.0",
         "recipe": {
             "repo": "github.com/symfony/recipes",
-            "branch": "master",
-            "version": "5.4",
-            "ref": "bb2178c57eee79e6be0b297aa96fc0c0def81387"
+            "branch": "main",
+            "version": "6.4",
+            "ref": "cab5fd2a13a45c266d45a7d9337e28dee6272877"
         },
         "files": [
             "config/packages/twig.yaml",
@@ -471,12 +471,12 @@
         "version": "v6.0.6"
     },
     "symfony/web-profiler-bundle": {
-        "version": "6.0",
+        "version": "8.0",
         "recipe": {
             "repo": "github.com/symfony/recipes",
-            "branch": "master",
-            "version": "5.3",
-            "ref": "24bbc3d84ef2f427f82104f766014e799eefcc3e"
+            "branch": "main",
+            "version": "7.3",
+            "ref": "a363460c1b0b4a4d0242f2ce1a843ca0f6ac9026"
         },
         "files": [
             "config/packages/web_profiler.yaml",
