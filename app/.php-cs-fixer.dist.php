@@ -6,6 +6,7 @@ $finder = new PhpCsFixer\Finder();
 $finder
     ->in(__DIR__)
     ->exclude('var')
+    ->exclude('config')
     ->exclude('vendor');
 
 $config = new PhpCsFixer\Config();
