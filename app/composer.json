@@ -10,14 +10,11 @@
         "ext-ctype": "*",
         "ext-curl": "*",
         "ext-iconv": "*",
-        "doctrine/doctrine-bundle": "^2.18",
-        "doctrine/doctrine-migrations-bundle": "^3.7",
-        "doctrine/orm": "^3.6",
         "symfony/dotenv": "*",
         "symfony/flex": "^2",
         "symfony/framework-bundle": "*",
         "symfony/http-client": "*",
-        "symfony/monolog-bundle": "^3.8",
+        "symfony/monolog-bundle": "^4.0",
         "symfony/runtime": "*",
         "symfony/yaml": "*"
     },
@@ -27,8 +24,9 @@
         "phpstan/phpstan": "^1.5",
         "phpstan/phpstan-phpunit": "^1.1",
         "phpstan/phpstan-symfony": "^1.1",
-        "phpunit/phpunit": "^9.5",
-        "symfony/phpunit-bridge": "*"
+        "phpunit/phpunit": "^12.5",
+        "symfony/phpunit-bridge": "*",
+        "symfony/profiler-pack": "*"
     },
     "config": {
         "allow-plugins": {
@@ -41,10 +39,7 @@
         "preferred-install": {
             "*": "dist"
         },
-        "sort-packages": true,
-        "audit": {
-            "block-insecure": false
-        }
+        "sort-packages": true
     },
     "autoload": {
         "psr-4": {
@@ -91,7 +86,7 @@
     "extra": {
         "symfony": {
             "allow-contrib": false,
-            "require": "7.4.*"
+            "require": "8.0.*"
         }
     }
 }
