@@ -7,7 +7,7 @@ env:
     PACKAGE_VERSION: "3.0.0"
 jobs:
     integrate:
-        runs-on: ubuntu-22.04
+        runs-on: "ubuntu-22.04"
         timeout-minutes: 3
         steps:
             # checkout repository
