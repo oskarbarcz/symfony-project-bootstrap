@@ -1,14 +1,14 @@
-name: deploy
+name: "deploy"
 on:
     push:
         branches: [ "main" ]
         paths: [ "**", "!**.md" ]
 env:
     PACKAGE_NAME: "ghcr.io/oskarbarcz/symfony-project-bootstrap"
-    PACKAGE_VERSION: "3.0.0"
+    PACKAGE_VERSION: "5.0.0"
 jobs:
     deploy:
-        runs-on: ubuntu-22.04
+        runs-on: "ubuntu-24.04"
         timeout-minutes: 3
         steps:
             # checkout repository
